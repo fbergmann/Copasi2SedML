@@ -16,7 +16,7 @@ converter.SaveTo(outputFile);
 The command line converter expects two arguments, the COPASI input file, and the SED-ML output filename. If the output filename ends in `.sedx` (the format for the SED-ML archive) the archive will be produced, i.e: the model will be included together with the description. 
 
 <code>
-	CopasiSedMLExport.exe inputFile outputFile 
+	CopasiSedMLExport.exe -f inputFile -o outputFile 
 </code>
 
 
