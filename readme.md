@@ -8,7 +8,7 @@ To use the library, simply add a reference to `LibCopasi2SedML.dll` to your proj
 
 
 <code>
-var converter = new Copasi2SedMLConverter(inputFile);
+var converter = new Copasi2SedMLConverter(inputFile);<br/>
 converter.SaveTo(outputFile);
 </code>
 
